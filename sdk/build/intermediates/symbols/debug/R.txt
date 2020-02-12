@@ -1,0 +1,2 @@
+int id ratingBar 0x7f0b0001
+int layout star_rating_layout 0x7f0e0001

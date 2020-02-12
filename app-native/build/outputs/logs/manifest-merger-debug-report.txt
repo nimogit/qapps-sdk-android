@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:sdk-native] C:\QApps_update_sdks\qapps-sdk-android\sdk-native\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:4:5-80
+MERGED from [:sdk-native] C:\QApps_update_sdks\qapps-sdk-android\sdk-native\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:sdk-native] C:\QApps_update_sdks\qapps-sdk-android\sdk-native\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:4:22-78
+application
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:11:9-40
+activity#com.qassioun.android.demo.crash.MainActivity
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk-native] C:\QApps_update_sdks\qapps-sdk-android\sdk-native\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk-native] C:\QApps_update_sdks\qapps-sdk-android\sdk-native\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app-native\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+uses-library#android.test.runner
+ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-60
+	android:name
+		ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:23-57

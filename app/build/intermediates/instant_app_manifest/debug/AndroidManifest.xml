@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qassioun.android.demo"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="ly.count.android.demo.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ly.count.android.demo.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="@string/deep_link" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Accepts URIs that begin with "countly://test” -->
+                <!-- test with adb shell am start -a android.intent.action.VIEW -d "countly://test" ly.count.android.demo -->
+                <data
+                    android:host="test"
+                    android:scheme="countly" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="ly.count.android.demo.DemoFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleAPM"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_apm" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleCrashReporting"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_crash_reporting" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleCustomEvents"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_custom_events" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleMultiThreading"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_multithreading" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleOthers"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_others" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleUserDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_user_detail" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleViewTracking"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_view_tracking" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleRemoteConfig"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_remote_config" >
+        </activity>
+        <activity
+            android:name="ly.count.android.demo.ActivityExampleDeviceId"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_name_device_id" >
+        </activity>
+
+        <service
+            android:name="org.openudid.OpenUDID_service"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="org.OpenUDID.GETUDID" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="ly.count.android.sdk.ReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="ly.count.android.demo.AnotherActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_another"
+            android:parentActivityName="ly.count.android.demo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ly.count.android.demo.MainActivity" />
+        </activity>
+
+        <uses-library android:name="android.test.runner" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.qassioun.android.demo.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

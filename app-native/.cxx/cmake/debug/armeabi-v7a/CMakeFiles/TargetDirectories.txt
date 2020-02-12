@@ -1,0 +1,3 @@
+C:/QApps_update_sdks/qapps-sdk-android/app-native/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+C:/QApps_update_sdks/qapps-sdk-android/app-native/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/QApps_update_sdks/qapps-sdk-android/app-native/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

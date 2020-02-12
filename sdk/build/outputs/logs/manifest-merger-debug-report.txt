@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:70-104
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:1-12:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:3:22-64
+application
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:5:5-7:19
+uses-library#android.test.runner
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:6:9-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml:6:23-57
+uses-sdk
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\sdk\src\main\AndroidManifest.xml

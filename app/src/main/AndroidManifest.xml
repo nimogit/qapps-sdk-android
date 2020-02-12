@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ly.count.android.demo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter android:label="@string/deep_link">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Accepts URIs that begin with "countly://test” -->
+                <!-- test with adb shell am start -a android.intent.action.VIEW -d "countly://test" ly.count.android.demo  -->
+                <data android:scheme="countly"
+                      android:host="test" />
+
+            </intent-filter>
+        </activity>
+
+        <service android:name=".DemoFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".ActivityExampleAPM"
+            android:label="@string/activity_name_apm"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleCrashReporting"
+            android:label="@string/activity_name_crash_reporting"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleCustomEvents"
+            android:label="@string/activity_name_custom_events"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleMultiThreading"
+            android:label="@string/activity_name_multithreading"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleOthers"
+            android:label="@string/activity_name_others"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleUserDetails"
+            android:label="@string/activity_name_user_detail"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleViewTracking"
+            android:label="@string/activity_name_view_tracking"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".ActivityExampleRemoteConfig"
+            android:label="@string/activity_name_remote_config"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity
+            android:name=".ActivityExampleDeviceId"
+            android:label="@string/activity_name_device_id"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <service android:name="org.openudid.OpenUDID_service" android:exported="false">
+            <intent-filter>
+                <action android:name="org.OpenUDID.GETUDID" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="ly.count.android.sdk.ReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".AnotherActivity"
+            android:label="@string/title_activity_another"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ly.count.android.demo.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

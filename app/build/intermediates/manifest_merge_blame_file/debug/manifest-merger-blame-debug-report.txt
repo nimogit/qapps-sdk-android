@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qassioun.android.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+13-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+14-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+15
+16    <application
+16-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:8:5-119:19
+17        android:name="ly.count.android.demo.App"
+17-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:9:9-28
+18        android:allowBackup="true"
+18-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/icon"
+21-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:11:9-36
+22        android:label="@string/app_name"
+22-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:12:9-41
+23        android:theme="@style/AppTheme" >
+23-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity
+24-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:14:9-35:20
+25            android:name="ly.count.android.demo.MainActivity"
+25-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:15:13-41
+26            android:configChanges="orientation|screenSize"
+26-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:17:13-59
+27            android:label="@string/app_name" >
+27-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:16:13-45
+28            <intent-filter>
+28-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33            <intent-filter android:label="@string/deep_link" >
+33-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:24:13-34:29
+33-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:24:28-61
+34                <action android:name="android.intent.action.VIEW" />
+34-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:26:17-76
+36-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:26:27-73
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:27:17-78
+37-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:27:27-75
+38
+39                <!-- Accepts URIs that begin with "countly://test” -->
+40                <!-- test with adb shell am start -a android.intent.action.VIEW -d "countly://test" ly.count.android.demo -->
+41                <data
+41-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:31:17-32:45
+42                    android:host="test"
+42-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:32:23-42
+43                    android:scheme="countly" />
+43-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:31:23-47
+44            </intent-filter>
+45        </activity>
+46
+47        <service android:name="ly.count.android.demo.DemoFirebaseMessagingService" >
+47-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:37:9-41:19
+47-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:37:18-62
+48            <intent-filter>
+48-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:38:13-40:29
+49                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+49-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:17-78
+49-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:25-75
+50            </intent-filter>
+51        </service>
+52
+53        <activity
+53-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:43:9-47:20
+54            android:name="ly.count.android.demo.ActivityExampleAPM"
+54-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:44:13-47
+55            android:configChanges="orientation|screenSize"
+55-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:46:13-59
+56            android:label="@string/activity_name_apm" >
+56-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:45:13-54
+57        </activity>
+58        <activity
+58-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:49:9-53:20
+59            android:name="ly.count.android.demo.ActivityExampleCrashReporting"
+59-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:50:13-58
+60            android:configChanges="orientation|screenSize"
+60-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:52:13-59
+61            android:label="@string/activity_name_crash_reporting" >
+61-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:51:13-66
+62        </activity>
+63        <activity
+63-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:55:9-59:20
+64            android:name="ly.count.android.demo.ActivityExampleCustomEvents"
+64-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:56:13-56
+65            android:configChanges="orientation|screenSize"
+65-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:58:13-59
+66            android:label="@string/activity_name_custom_events" >
+66-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:57:13-64
+67        </activity>
+68        <activity
+68-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:61:9-65:20
+69            android:name="ly.count.android.demo.ActivityExampleMultiThreading"
+69-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:62:13-58
+70            android:configChanges="orientation|screenSize"
+70-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:64:13-59
+71            android:label="@string/activity_name_multithreading" >
+71-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:63:13-65
+72        </activity>
+73        <activity
+73-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:67:9-71:20
+74            android:name="ly.count.android.demo.ActivityExampleOthers"
+74-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:68:13-50
+75            android:configChanges="orientation|screenSize"
+75-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:70:13-59
+76            android:label="@string/activity_name_others" >
+76-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:69:13-57
+77        </activity>
+78        <activity
+78-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:73:9-77:20
+79            android:name="ly.count.android.demo.ActivityExampleUserDetails"
+79-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:74:13-55
+80            android:configChanges="orientation|screenSize"
+80-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:76:13-59
+81            android:label="@string/activity_name_user_detail" >
+81-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:75:13-62
+82        </activity>
+83        <activity
+83-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:79:9-83:20
+84            android:name="ly.count.android.demo.ActivityExampleViewTracking"
+84-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:80:13-56
+85            android:configChanges="orientation|screenSize"
+85-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:82:13-59
+86            android:label="@string/activity_name_view_tracking" >
+86-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:81:13-64
+87        </activity>
+88        <activity
+88-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:85:9-89:20
+89            android:name="ly.count.android.demo.ActivityExampleRemoteConfig"
+89-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:86:13-56
+90            android:configChanges="orientation|screenSize"
+90-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:88:13-59
+91            android:label="@string/activity_name_remote_config" >
+91-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:87:13-64
+92        </activity>
+93        <activity
+93-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:90:9-94:20
+94            android:name="ly.count.android.demo.ActivityExampleDeviceId"
+94-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:91:13-52
+95            android:configChanges="orientation|screenSize"
+95-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:93:13-59
+96            android:label="@string/activity_name_device_id" >
+96-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:92:13-60
+97        </activity>
+98
+99        <service
+99-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:9-100:19
+100            android:name="org.openudid.OpenUDID_service"
+100-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:18-62
+101            android:exported="false" >
+101-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:63-87
+102            <intent-filter>
+102-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:97:13-99:29
+103                <action android:name="org.OpenUDID.GETUDID" />
+103-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:98:17-63
+103-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:98:25-60
+104            </intent-filter>
+105        </service>
+106
+107        <receiver
+107-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:9-106:20
+108            android:name="ly.count.android.sdk.ReferrerReceiver"
+108-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:19-71
+109            android:exported="true" >
+109-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:72-95
+110            <intent-filter>
+110-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:103:13-105:29
+111                <action android:name="com.android.vending.INSTALL_REFERRER" />
+111-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:104:17-79
+111-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:104:25-76
+112            </intent-filter>
+113        </receiver>
+114
+115        <activity
+115-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:108:9-117:20
+116            android:name="ly.count.android.demo.AnotherActivity"
+116-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:109:13-44
+117            android:configChanges="orientation|screenSize"
+117-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:113:13-59
+118            android:label="@string/title_activity_another"
+118-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:110:13-59
+119            android:parentActivityName="ly.count.android.demo.MainActivity"
+119-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:111:13-55
+120            android:theme="@style/AppTheme.NoActionBar" >
+120-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:112:13-56
+121            <meta-data
+121-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:114:13-116:70
+122                android:name="android.support.PARENT_ACTIVITY"
+122-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:115:17-63
+123                android:value="ly.count.android.demo.MainActivity" />
+123-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:116:17-67
+124        </activity>
+125
+126        <uses-library android:name="android.test.runner" />
+126-->[:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-60
+126-->[:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:23-57
+127        <!--
+128             FirebaseMessagingService performs security checks at runtime,
+129             but set to not exported to explicitly avoid allowing another app to call it.
+130        -->
+131        <service
+131-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+132            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+132-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+133            android:exported="false" >
+133-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+134            <intent-filter android:priority="-500" >
+134-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:38:13-40:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:17-78
+135-->C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:25-75
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:30:13-84
+140            android:exported="false" >
+140-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
+141            <meta-data
+141-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+142                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+142-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+144        </service>
+145
+146        <receiver
+146-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+147            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+147-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+148            android:exported="true"
+148-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+149            android:permission="com.google.android.c2dm.permission.SEND" >
+149-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+150            <intent-filter>
+150-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+151                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+151-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+151-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+152            </intent-filter>
+153        </receiver>
+154
+155        <provider
+155-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+156            android:name="com.google.firebase.provider.FirebaseInitProvider"
+156-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+157            android:authorities="com.qassioun.android.demo.firebaseinitprovider"
+157-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+158            android:exported="false"
+158-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+160
+161        <activity
+161-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+162            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+162-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+165
+166        <meta-data
+166-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+167            android:name="com.google.android.gms.version"
+167-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+168            android:value="@integer/google_play_services_version" />
+168-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+169    </application>
+170
+171</manifest>

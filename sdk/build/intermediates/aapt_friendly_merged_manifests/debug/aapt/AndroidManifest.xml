@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qassioun.android.sdk"
+    android:versionCode="1"
+    android:versionName="20.02" > <!-- <instrumentation android:name="com.qassioun.android.sdk.test.InstrumentationTestRunner" -->
+    <!-- android:targetPackage="com.qassioun.android.sdk"/> -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

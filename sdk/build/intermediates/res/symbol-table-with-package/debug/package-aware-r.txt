@@ -1,0 +1,3 @@
+com.qassioun.android.sdk
+id ratingBar
+layout star_rating_layout

@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qassioun.android.sdk.test" >
+4
+5    <uses-sdk
+5-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:11:5-15:79
+10        android:name="com.qassioun.android.sdk.test.InstrumentationTestRunner"
+10-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:11:22-92
+11        android:functionalTest="true"
+11-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:14:22-51
+12        android:handleProfiling="true"
+12-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:13:22-52
+13        android:label="Tests for com.qassioun.android.sdk.test"
+13-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:15:22-77
+14        android:targetPackage="com.qassioun.android.sdk.test" />
+14-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:12:22-75
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+16-->[__tested_artifact__::sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.REORDER_TASKS" />
+17-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:24:5-72
+17-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:24:22-69
+18
+19    <application android:debuggable="true" >
+19-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:7:5-9:19
+19-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:7:18-43
+20        <uses-library android:name="android.test.runner" />
+20-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:8:9-60
+20-->C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5254929375454869307.xml:8:23-57
+21
+22        <activity
+22-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:27:9-33:20
+23            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+23-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:28:13-99
+24            android:theme="@android:style/Theme" >
+24-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:29:13-49
+25            <intent-filter>
+25-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:30:13-32:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:17-69
+26-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:25-66
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:34:9-40:20
+30            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+30-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:35:13-95
+31            android:theme="@android:style/Theme" >
+31-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:36:13-49
+32            <intent-filter>
+32-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:30:13-32:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:17-69
+33-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:25-66
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:41:9-47:20
+37            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+37-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:42:13-103
+38            android:theme="@android:style/Theme.Dialog" >
+38-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:43:13-56
+39            <intent-filter>
+39-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:30:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:17-69
+40-->[androidx.test:core:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5435a158067dc7daf0c0e3a43228e009\core-1.2.0\AndroidManifest.xml:31:25-66
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

@@ -1,0 +1,466 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.material:material:1.2.0-alpha01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d42aa6d3c38504ef35da8498c404edde\material-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b59c9c27c583d0b4b593c7db12eb2166\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8a77d22e179111f50f0c2e02e02ae17f\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5804da84a9c3a6a0656476b52c86a038\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4ce025a3c477667146b9a915a75aa0db\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6cfb733a883cdbd336c6da2ecadb2036\jetified-play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8169dc02d29148a33cb7aeb73c8f5ef1\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4240cc7808254dde025cf311e8def318\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4dfd17bee669744c157486ae2df406e5\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\87066e0ec5a4ef1fcc0f16abb672e7e7\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\a3e50710fc10f827540e14afd27f4b0e\viewpager2-1.0.0-beta05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\1a260d4785f1ebeaecd6b7508c2e8ac7\recyclerview-1.1.0-beta05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b803c2c3ac076f8a35a03f9f31e62163\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2dc329446107121ea2ccbda9e1f00aed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d3afe2d444383653af3f3dd426214a29\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e3089bccc27d490d34e7a88b057cbe63\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8cabae4b44c12cfcc454eb89d3bbb0ba\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\471d38d7e280a2f38a7a97247fb9bbaa\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8ba56fd4223b00d96ca34e90eeba96c0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d9b702c8a7be4419e4d98428e5715713\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+	package
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:1-121:12
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:8:5-119:19
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.material:material:1.2.0-alpha01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d42aa6d3c38504ef35da8498c404edde\material-1.2.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d42aa6d3c38504ef35da8498c404edde\material-1.2.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8a77d22e179111f50f0c2e02e02ae17f\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8a77d22e179111f50f0c2e02e02ae17f\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5804da84a9c3a6a0656476b52c86a038\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5804da84a9c3a6a0656476b52c86a038\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4ce025a3c477667146b9a915a75aa0db\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4ce025a3c477667146b9a915a75aa0db\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6cfb733a883cdbd336c6da2ecadb2036\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6cfb733a883cdbd336c6da2ecadb2036\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:11:9-36
+	android:allowBackup
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:9:9-28
+activity#ly.count.android.demo.MainActivity
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:14:9-35:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:16:13-45
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:17:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:21:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:test+data:scheme:countly
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:24:13-34:29
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:24:28-61
+action#android.intent.action.VIEW
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:26:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:27:17-78
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:27:27-75
+data
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:31:17-32:45
+	android:host
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:32:23-42
+	android:scheme
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:31:23-47
+service#ly.count.android.demo.DemoFirebaseMessagingService
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:37:9-41:19
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:37:18-62
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:38:13-40:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:39:25-75
+activity#ly.count.android.demo.ActivityExampleAPM
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:43:9-47:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:45:13-54
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:46:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:44:13-47
+activity#ly.count.android.demo.ActivityExampleCrashReporting
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:49:9-53:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:51:13-66
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:52:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:50:13-58
+activity#ly.count.android.demo.ActivityExampleCustomEvents
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:55:9-59:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:57:13-64
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:58:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:56:13-56
+activity#ly.count.android.demo.ActivityExampleMultiThreading
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:61:9-65:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:63:13-65
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:64:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:62:13-58
+activity#ly.count.android.demo.ActivityExampleOthers
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:67:9-71:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:69:13-57
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:70:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:68:13-50
+activity#ly.count.android.demo.ActivityExampleUserDetails
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:73:9-77:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:75:13-62
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:76:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:74:13-55
+activity#ly.count.android.demo.ActivityExampleViewTracking
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:79:9-83:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:81:13-64
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:82:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:80:13-56
+activity#ly.count.android.demo.ActivityExampleRemoteConfig
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:85:9-89:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:87:13-64
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:88:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:86:13-56
+activity#ly.count.android.demo.ActivityExampleDeviceId
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:90:9-94:20
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:92:13-60
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:93:13-59
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:91:13-52
+service#org.openudid.OpenUDID_service
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:9-100:19
+	android:exported
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:63-87
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:96:18-62
+intent-filter#action:name:org.OpenUDID.GETUDID
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:97:13-99:29
+action#org.OpenUDID.GETUDID
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:98:17-63
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:98:25-60
+receiver#ly.count.android.sdk.ReferrerReceiver
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:9-106:20
+	android:exported
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:72-95
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:102:19-71
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:103:13-105:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:104:17-79
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:104:25-76
+activity#ly.count.android.demo.AnotherActivity
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:108:9-117:20
+	android:parentActivityName
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:111:13-55
+	android:label
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:110:13-59
+	android:configChanges
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:113:13-59
+	android:theme
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:112:13-56
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:109:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:114:13-116:70
+	android:value
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:116:17-67
+	android:name
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml:115:17-63
+uses-sdk
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d42aa6d3c38504ef35da8498c404edde\material-1.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d42aa6d3c38504ef35da8498c404edde\material-1.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b22bbf8b991e531a4b0537d4cfc76174\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\16a6310bbc39854908d4cace399927dc\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b59c9c27c583d0b4b593c7db12eb2166\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b59c9c27c583d0b4b593c7db12eb2166\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8a77d22e179111f50f0c2e02e02ae17f\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8a77d22e179111f50f0c2e02e02ae17f\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5804da84a9c3a6a0656476b52c86a038\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5804da84a9c3a6a0656476b52c86a038\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4ce025a3c477667146b9a915a75aa0db\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4ce025a3c477667146b9a915a75aa0db\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6cfb733a883cdbd336c6da2ecadb2036\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6cfb733a883cdbd336c6da2ecadb2036\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8169dc02d29148a33cb7aeb73c8f5ef1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8169dc02d29148a33cb7aeb73c8f5ef1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4240cc7808254dde025cf311e8def318\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4240cc7808254dde025cf311e8def318\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4dfd17bee669744c157486ae2df406e5\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4dfd17bee669744c157486ae2df406e5\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\87066e0ec5a4ef1fcc0f16abb672e7e7\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\87066e0ec5a4ef1fcc0f16abb672e7e7\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\22701d0b043992aef05b3db5b7d80670\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\6017d6b0a6b8743565a7b5d36480a896\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f40f204df7a3df4194a4f603bccb187c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\a3e50710fc10f827540e14afd27f4b0e\viewpager2-1.0.0-beta05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\a3e50710fc10f827540e14afd27f4b0e\viewpager2-1.0.0-beta05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2cc62a9a67cdd3f95a8f00235c20bbde\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fdfd7b8b21939c4ae9592ee134cdde8f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\1a260d4785f1ebeaecd6b7508c2e8ac7\recyclerview-1.1.0-beta05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\1a260d4785f1ebeaecd6b7508c2e8ac7\recyclerview-1.1.0-beta05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\681826c126e751c9bab493af8374067d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b803c2c3ac076f8a35a03f9f31e62163\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\b803c2c3ac076f8a35a03f9f31e62163\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\4c5398982245b175e6ab145582fc805d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2dc329446107121ea2ccbda9e1f00aed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\2dc329446107121ea2ccbda9e1f00aed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\5496c78084abe008e99a99cc93950ffb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\28d2eec9aebfd23f2afab6f992d6032e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d3afe2d444383653af3f3dd426214a29\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d3afe2d444383653af3f3dd426214a29\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e3089bccc27d490d34e7a88b057cbe63\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e3089bccc27d490d34e7a88b057cbe63\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8cabae4b44c12cfcc454eb89d3bbb0ba\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8cabae4b44c12cfcc454eb89d3bbb0ba\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\55518515a1debd8588a9cff88a7d9a41\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eadb3afe2488edeedc39ffade24a50c8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\27d151c9edc75e0e34da5aee19b4f26e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\bf1b8667a696c63e9810d8ea74fa7ec2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\fe9e16d4277ba62859030228f4bc3128\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0ceaad26a3dad5ee1d3bf69fe25677d5\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\11725c7fd9807b5d79564f1c80b4f1f7\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\471d38d7e280a2f38a7a97247fb9bbaa\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\471d38d7e280a2f38a7a97247fb9bbaa\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8ba56fd4223b00d96ca34e90eeba96c0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8ba56fd4223b00d96ca34e90eeba96c0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d9b702c8a7be4419e4d98428e5715713\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\d9b702c8a7be4419e4d98428e5715713\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\eb224e1efe633c01b1b4a10b0d26a13d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\8f1a3a2afd026dd06000131f5d3bc000\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\591532a74c9a38f9f5f46c33b525ded6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\QApps_update_sdks\qapps-sdk-android\app\src\main\AndroidManifest.xml
+uses-library#android.test.runner
+ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-60
+	android:name
+		ADDED from [:sdk] C:\QApps_update_sdks\qapps-sdk-android\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:23-57
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\ab0f55f7efc73bbdbc4a34fcb263e8cb\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\534d8f81dac9aee9ddc42f7353956657\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\f6cdd230c9c7375284725765d65acfca\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\e9fbf7667c69f716ea3342dcf709b29e\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Walid\.gradle\caches\transforms-2\files-2.1\0dfbe46b47946c37e6f8a08d4936b3a2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58

@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\QApps_update_sdks\\qapps-sdk-android",
+      "sdkFolder": "C:\\Android_Tools\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\build\\intermediates",
+      "gradleModulePathName": ":app-native",
+      "moduleRootFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native",
+      "makeFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\.cxx",
+      "cxxFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx",
+      "ndkFolder": "C:\\Android_Tools\\sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\QApps_update_sdks\\qapps-sdk-android\\app-native\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}

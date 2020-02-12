@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-native/app-native.iml" filepath="$PROJECT_DIR$/app-native/app-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qapps-sdk-android.iml" filepath="$PROJECT_DIR$/qapps-sdk-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-native/sdk-native.iml" filepath="$PROJECT_DIR$/sdk-native/sdk-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upload-plugin/upload-plugin.iml" filepath="$PROJECT_DIR$/upload-plugin/upload-plugin.iml" />
+    </modules>
+  </component>
+</project>
